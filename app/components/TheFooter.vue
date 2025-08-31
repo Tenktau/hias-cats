@@ -1,0 +1,206 @@
+<script setup lang="ts">
+  //...
+</script>
+<template>
+  <footer class="pt-12">
+    <div class="container mx-auto px-8">
+      <div class="flex flex-wrap relative">
+        <div
+          class="-mx-4 flex flex-col flex-wrap items-center pl-4 pr-8 py-4 md:flex-col md:flex-nowrap -mt-4 lg:items-start lg:w-1/3"
+        >
+          <NuxtLink class="-ml-6" to="/">
+            <div to="/" class="font-serif inline-flex items-center text-3xl">
+              <svg
+                version="1.0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="2.5em"
+                xml:space="preserve"
+                fill="currentColor"
+                viewBox="0 0 240 240"
+                height="2.5em"
+                class="mr-2"
+              >
+                <g transform="translate(17.704 -9.215)">
+                  <path
+                    d="M92.45 183.38a61.38 61.38 0 00-30.07 15.35 9.84 9.84 0 01-15.9-3.73 61.65 61.65 0 11115.83-.18 9.87 9.87 0 01-16 3.9 61.43 61.43 0 00-30.07-15.35"
+                    fill="#99cd31"
+                    stroke="#475f17"
+                    stroke-miterlimit="10"
+                    stroke-width="12"
+                  />
+                  <circle
+                    cx="17.18"
+                    cy="17.18"
+                    r="17.18"
+                    transform="rotate(-22.39 282.115 44.556)"
+                    fill="#99cd31"
+                    stroke="#475f17"
+                    stroke-miterlimit="10"
+                    stroke-width="12"
+                  />
+                  <circle
+                    cx="17.18"
+                    cy="17.18"
+                    r="17.18"
+                    transform="rotate(-22.39 179.693 -83.499)"
+                    fill="#99cd31"
+                    stroke="#475f17"
+                    stroke-miterlimit="10"
+                    stroke-width="12"
+                  />
+                  <circle
+                    cx="17.18"
+                    cy="17.18"
+                    r="17.18"
+                    transform="rotate(-67.61 176.48 -54.394)"
+                    fill="#99cd31"
+                    stroke="#475f17"
+                    stroke-miterlimit="10"
+                    stroke-width="12"
+                  />
+                  <circle
+                    cx="17.18"
+                    cy="17.18"
+                    r="17.18"
+                    transform="rotate(-67.61 119.616 -48.074)"
+                    fill="#99cd31"
+                    stroke="#475f17"
+                    stroke-miterlimit="10"
+                    stroke-width="12"
+                  />
+                  <circle
+                    cx="3.19"
+                    cy="3.19"
+                    r="3.19"
+                    transform="translate(101.16 179.05)"
+                    fill="#475f17"
+                  />
+                  <path
+                    d="M89.72 137a20.84 20.84 0 00-20.84 20.84v.16"
+                    fill="none"
+                    stroke="#475f17"
+                    stroke-miterlimit="10"
+                    stroke-width="12"
+                  />
+                  <path
+                    d="M15.7 47.82h-2.75v-2.76a3.4 3.4 0 00-6.79 0v2.76H3.4a3.4 3.4 0 000 6.79h2.75v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79zm172.43 9.55h-2.76v-2.76a3.4 3.4 0 00-6.79 0v2.76h-2.76a3.4 3.4 0 000 6.79h2.76v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79zM25.25 203.82H22.5v-2.76a3.4 3.4 0 00-6.79 0v2.76h-2.76a3.4 3.4 0 000 6.79h2.75v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79z"
+                    fill="#475f17"
+                  />
+                </g>
+              </svg>
+              <h6 class="font-serif inline-flex items-center text-3xl">
+                杭高院猫猫普查
+              </h6>
+            </div>
+          </NuxtLink>
+          <p class="mt-2 text-center w-full lg:text-left">
+            本站用以记录杭高院各个园区内出没的猫猫，个人业余爱好、精力有限，欢迎投稿以及更新站内内容！
+          </p>
+          <!-- <div class="inline-flex mt-6 space-x-3">
+            <div class="flex flex-wrap space-x-4">
+              <NuxtLink
+                href="https://www.facebook.com/vuedesigner"
+                aria-label="facebook"
+                external
+                target="_blank"
+              >
+                <BaseIcon
+                  name="i-logos-facebook"
+                  class="text-2xl"
+                  width="28px"
+                />
+              </NuxtLink>
+            </div>
+          </div> -->
+          <!-- <div class="my-6 text-center">
+            <NuxtLink to="/">tenktau@foxmail.com</NuxtLink>
+          </div> -->
+        </div>
+        <div
+          class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start"
+        >
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            你可能感兴趣
+          </h2>
+          <ul class="text-center lg:mt-2 lg:text-left">
+            <li class="mb-4">
+              <NuxtLink
+                to="/blog/qna"
+                class="hover:text-primary-600 dark:text-primary-200"
+                >常见问题 Q&A</NuxtLink
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start"
+        >
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            相关页面
+          </h2>
+          <ul class="text-center lg:mt-2 lg:text-left">
+            <li class="mb-4">
+              <NuxtLink
+                to="/list"
+                class="hover:text-primary-600 dark:text-primary-200"
+                >猫口普查名单</NuxtLink
+              >
+            </li>
+            <li class="mb-4">
+              <NuxtLink
+                to="/blog"
+                class="hover:text-primary-600 dark:text-primary-200"
+                >站内博客</NuxtLink
+              >
+            </li>
+            <li class="mb-4">
+              <NuxtLink
+                to="/contact"
+                class="hover:text-primary-600 dark:text-primary-200"
+                >联系方式</NuxtLink
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col items-center p-4 w-full md:w-1/3">
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            ✨本月明星
+          </h2>
+          <div class="-mx-2 flex flex-wrap items-center lg:mt-2">
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://youke1.picui.cn/s1/2025/08/31/68b468d8d0ff2.jpg"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://youke1.picui.cn/s1/2025/08/31/68b468da80e8f.jpg"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://youke1.picui.cn/s1/2025/08/31/68b468db6f37c.jpg"
+                  class="w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col sm:w-full md:items-end">
+          <hr class="mb-4 opacity-25" />
+          <p class="py-1 text-sm sm:text-center">
+            &copy; 2025 著作权归所有参与建设者
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>
+<style scoped></style>
