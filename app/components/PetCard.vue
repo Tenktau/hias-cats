@@ -26,7 +26,7 @@
       <p class="mb-6 text-secondary-600 dark:text-secondary-200 text-sm">
         {{ breed }}
       </p>
-        {{ intro }}
+        <p class="text-xs">{{ name }} 常出现于 {{ location }}，单击了解更多~</p>
     </div>
   </NuxtLink>
 </template>
